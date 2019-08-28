@@ -1,0 +1,258 @@
+﻿/*
+	样式表用途：定义登录页面的样式
+	样式编写时间：2012.05.07
+	样式编写人：钟万山
+	联系方式：TEL/15817175804  QQ/764341548
+*/
+body{
+    background: #EBF0F4 url("../Images/SalesPad_LogingBG.png") repeat-x left top;
+    padding-top: 50px;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+}
+.loginPage_header,
+.loginPage_content,
+.loginPage_footer{
+	width:914px;
+	margin:0 auto;
+	text-align: left;
+}
+/*定义main的样式*/
+.loginPage_main{
+    width: 685px;
+    height: 400px;
+    background: url("../Images/SalesPad_loginContentBg.png") no-repeat center center;
+    margin:0 auto;
+	text-align: left;
+    position: relative;
+}
+
+/*定义头部样式*/
+.loginPage_header{
+	width: 914px;
+	height: 60px;
+	background: url("../Images/CaliStarIndexLogo.png") no-repeat center center;
+    position: relative;
+}
+.loginPage_header h1{
+    text-indent: -9999px;
+}
+.versionNum{
+    position: absolute;
+    bottom: 12px;
+    right: 235px;
+    font-size: 12px;
+    color: #999;
+}
+/*定义banner的样式*/
+.loginPage_banner{
+	width: 914px;
+	height: 288px;
+	text-indent: -9999px;
+	margin-bottom: 16px;
+}
+/*定义登录的样式*/
+.loginPage_login{
+	width: 450px;
+	height: 380px;
+	font-size: 14px;
+    float: right;
+    *display: inline;
+}
+/*公用的图片或图标*/
+.remenber,
+.loginPage_content li div,
+.errorIcon{
+    background: url("../Images/sprite_icon.png") no-repeat;  
+}
+/*定义登录的标题样式*/
+.login_header{
+	width: 210px;
+	height: 25px;
+	padding: 18px 15px 20px 20px;
+	border-bottom: 1px solid #eee;	
+}
+.login_header h2{
+        text-indent: -9999px;
+        width: 210px;
+        height: 25px;
+	background-position: 0 -160px;
+}
+/*定义登录内容的样式*/
+.login_content{
+	margin: 60px auto 30px auto;
+    width: 280px;
+}
+/*定义输入框的样式*/
+.login_input li{
+	position: relative;
+	height: 30px;
+	margin-bottom: 15px;
+}
+.login_input li .label{
+	position: absolute;
+	left: 8px;
+	top:5px;
+	font-family:微软雅黑;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ddd;
+}
+.login_input li .label label{
+	cursor:text;
+}
+.login_input li .tip_icon{
+    position: absolute;
+	right: 10px;
+	top:0px;
+	font-family:微软雅黑;
+	font-size: 18px;
+	color: red;
+}
+.login_input li .checkCode .tip_icon{
+        left: 120px;
+}
+.login_input li input{
+	width: 280px;
+	height:28px;
+	font-family:微软雅黑;
+	font-size: 14px;
+	font-weight: bold;
+	color: #aaa;
+	line-height: 25px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-o-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+    border: 1px solid #cbcbcb;
+    padding-left: 3px;
+    -moz-box-shadow: 5px 8px 8px #eee insert,-2px -3px #eee insert;
+    -webkit-box-shadow: 5px 8px 8px #eee insert,-2px -3px #eee insert;
+    -o-box-shadow: 5px 8px 8px #eee insert,-2px -3px #eee insert;
+    box-shadow: 5px 8px 8px #eee insert,-2px -3px #eee insert;
+}
+.login_input li .input_border{
+        border: 1px solid #3366ff;
+}
+/*定义验证码样式*/
+.login_input .checkCode input{
+	width:130px;
+}
+.login_input div{
+	float: left;
+	height: 30px;
+	margin-right: 15px;
+}
+.checkCode_img{
+	width: 50px;
+	cursor: pointer;
+}
+.login_input div.remenber{
+	padding-left: 21px;
+	cursor: pointer;
+	font-size: 12px;
+	height: 28px;
+	line-height: 28px;
+	margin-right: 0;
+	background-position: -15px -564px;
+}
+/*定义错误提示的样式*/
+.error_tip{
+	height: 60px;
+}
+.error_tip p{
+	color: Red;
+	width: 200px;
+	padding: 5px 5px 5px 30px;
+	background-position:-9px -442px;
+}
+/*定义登录按钮的样式*/
+.login_btn{ 
+    outline-width: 0; 
+    text-align: center;
+    position: relative;
+}
+.login_btn input{
+	width: 208px;
+	height: 45px;
+	border: none;
+	cursor: pointer;
+	background-position: 0 0;
+	outline-width: 0;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+    font-family:微软雅黑;
+    letter-spacing: 2px;
+    background: url("../Images/image_sprite.png") no-repeat;  
+}
+.waitingIcon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 123px;
+    top: 8px;
+    background: url("../Images/salesPad_waiting.gif") no-repeat; 
+}
+.buttom_line{
+	margin: 16px 0 0 12px;
+	width: 225px;
+	border-bottom: 2px dashed #ccc;
+	
+}
+/*定义主要内容样式*/
+.loginPage_content{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.loginPage_content li{
+	float: left;
+	margin-bottom: 30px;
+}
+.loginPage_content li div{
+	width: 270px;
+	height: 40px;
+	padding-left: 58px;
+}
+.loginPage_content li h3{
+        font-size: 13px;
+}
+.loginPage_content li p{
+	margin-top: 2px;
+}
+.loginPage_content li div.view{
+	background-position: 0 0;
+}
+.loginPage_content li div.mobile{
+	background-position: 0 -95px;
+}
+.loginPage_content li div.clone{
+	background-position: 0 -144px;
+}
+.loginPage_content li div.sheet{
+	background-position: 0 -48px;
+}
+/*定义页脚的样式*/
+.loginPage_footer{
+	height: 40px;
+	text-align: center;
+	color: #999;
+}
+.loginPage_footer p{
+	margin-top:10px;
+}
+.chromeBrower
+{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    color: #999;
+    text-decoration: none;
+}
+.chromeBrower:hover
+{
+    text-decoration: underline;
+}
+
+
+
+

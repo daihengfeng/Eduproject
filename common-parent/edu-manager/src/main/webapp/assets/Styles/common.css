@@ -1,0 +1,600 @@
+/************************************************
+ *	样式表用途：用于整站的公共样式
+ *	样式编写时间：2012.05.22
+ *	样式编写人：钟万山
+ *	联系方式：TEL/15817175804 QQ/764341548
+ *
+ *  修改时间： 2013-09-05
+ *  修改人：钟万山
+ ***********************************************/
+html,body{-webkit-text-size-adjust:none; background-color: White;}
+form{ position: relative;}
+body{
+	text-align: center;
+	background-color: #fff;
+	font-family: "微软雅黑","SimSun","宋体","Arial Narrow";
+}
+a{text-decoration: none;}
+
+/**
+ * salesPad_header（页头）样式
+ */
+.header       { text-align: left;position: relative; z-index: 200;}
+.header_top,
+.header_nav ul{ margin: 0 2%; }
+
+/**
+ *  主要定义表格里面的p标签的定位，
+ *  目的是为了更好的控制错误提示的定位
+ */
+iframe{ overflow: hidden; }
+
+/**
+ * 为iframe层设置样式
+ */
+.main_iframe        { position: relative; z-index: 5; width: 100%; height: 515px; }  
+.common_iframe      { width: 100%; height: 500px; position: relative;overflow: hidden; }
+.iframe_layer       { width: 100%; height: 480px; position: relative; background-color: rgba(255,255,255,0.5);overflow: hidden; }
+#main_iframe        { z-index: 3; padding-top: 10px;}
+.indexPagePopupLayer .iframe_layer{ -moz-border-radius: 8px 8px 0px 0px;-webkit-border-radius: 8px 8px 0px 0px;-o-border-radius: 8px 8px 0px 0px;border-radius: 8px 8px 0px 0px; }
+
+/**
+ * 下面是对弹出的日期设置样式
+ */
+.calendar                   { z-index: 9999; border: 1px solid #0099FF; background-color: White;}
+.calendar .combo            { display:none; }
+.headrow img                { cursor: pointer; }
+.calendar tbody .day        { padding: 2px 4px 2px 2px; cursor: pointer; } 
+.calendar tbody .day:hover  { padding: 0px 2px; } 
+.calendar tbody td.today    { border: 1px solid #0099FF; }
+.calendar thead .name       { background-color: #CBDDF0; padding: 2px;}
+.calendar thead .name:hover { padding: 0 2px;}
+.calendar tbody .hilite     { border: 1px solid #0099FF; }
+.calendar .rowhilite        { background-color: #CBDDF0;}
+.calendar tbody td.selected { background-color: #CBDDF0;padding: 2px; }
+.calendar .title            { float: none; }
+
+/**
+ * 公用的大图或背景图
+ */
+/*.header_logo a,*/ 
+.showNav, 
+.showNav:hover, 
+.delete a, 
+.delete input,
+.delete .long_icon .handleBtn, 
+.handleBtn, 
+.editbutton, 
+.view_delete, 
+.search_find input,
+.search_addView input, 
+.search_detail .search_btn, 
+.password_submit input, 
+.error_tip_header, 
+.error_tip_information, 
+.error_tip_btn,
+.form_btn input, 
+.form_btn span{
+   background-image: url("../Images/image_sprite.png"); /* For IE 6 and 7 */
+}
+
+/**
+ * 公用的图标或小图片
+ */
+.sub_header_shop h2,
+.onlin_server, 
+.afterSalesIcon, 
+.marketingIcon, 
+.salesManageIcon, 
+.inventoryIcon,
+.systemIcon, 
+.finaceIcon, 
+.masterIcon, 
+.sub_nav ul li a, 
+.online_server a, 
+.search_title h3, 
+.switch, 
+.edit h3, 
+.addition, 
+.delete_list, 
+.delete_interview, 
+.marketing_list, 
+.follow_icon, 
+.freedBack_icon, 
+.join_person, 
+.customers_info, 
+.supplyCar_icon,
+.applyCard_icon, 
+.insurance_icon, 
+.preCar_icon, 
+.comCar_icon, 
+.predeal_icon, 
+.deal_icon, 
+.unsubScript_icon, 
+.cancel_icon, 
+.print_icon,
+.select_icon, 
+.edit_icon, 
+.dispatch_icon, 
+.excel_inIcon, 
+.html_outIcon, 
+.payment_icon, 
+.invoic_icon, 
+.excel_outIcon, 
+.recieCar_icon,
+.putOut_icon, 
+.putIn_icon, 
+.save_icon, 
+.collection_icon, 
+.biling_icon, 
+.ransom_icon, 
+.fanDai_icon, 
+.acount_icon, 
+.orderCancel_icon, 
+.certificat_icon,
+.lock_icon, 
+.productOrder_icon,
+.partMent_icon, 
+.addEmpl_icon, 
+.deleEmpl_icon, 
+.view_detail_list, 
+.view_detail_smallImg, 
+.view_detail_bigImg,
+.infor_header p a, 
+.infor_content h4, 
+.password_error_infor, 
+.password_maincontent h2, 
+#slice_sidbar, 
+.error_tip_close, 
+.newAdd_close,
+.newAdd_title, 
+.closePage, 
+.customer_searchBtn, 
+.all_clearOutBtn, 
+.specificPage_title, 
+.visit_return a, 
+.complain_fresh_list, 
+.select_contract,
+.factory_edit, 
+.reportFormsTitle {
+    background: url("../Images/sprite_icon.png") no-repeat; /* For IE 6 and 7 */
+}
+
+/**
+ * 不同图片、背景图、图标、小图片的背景位置
+ */
+.addition         { background-position: -16px -803px;  }
+.delete_list      { background-position: -16px -822px;  }
+.delete_interview { background-position: -11px -1063px; }
+.marketing_list   { background-position: -16px -680px;  }
+.join_person      { background-position: -16px -966px;  }
+.customers_info   { background-position: -16px -942px;  }
+.follow_icon      { background-position: -11px -1228px; }
+.freedBack_icon   { background-position: -11px -1249px; }
+.select_icon      { background-position: -11px -1479px; }
+.supplyCar_icon   { background-position: -11px -1298px; }
+.applyCard_icon   { background-position: -11px -1314px; }
+.insurance_icon   { background-position: -11px -1330px; }
+.preCar_icon      { background-position: -11px -1350px; }
+.comCar_icon      { background-position: -11px -1367px; }
+.predeal_icon     { background-position: -11px -1384px; }
+.deal_icon        { background-position: -11px -1402px; }
+.unsubScript_icon { background-position: -11px -1419px; }
+.cancel_icon      { background-position: -11px -1440px; }
+.print_icon       { background-position: -11px -1460px; }
+.edit_icon        { background-position: -11px -1497px; }
+.dispatch_icon    { background-position: -11px -1515px; }
+.excel_inIcon     { background-position: -11px -1534px; }
+.html_outIcon     { background-position: -11px -1552px; }
+.excel_outIcon    { background-position: -11px -1534px; }
+.payment_icon     { background-position: -11px -1617px; }
+.invoic_icon      { background-position: -11px -1636px; }
+.recieCar_icon    { background-position: -11px -1654px; }
+.putOut_icon      { background-position: -11px -1692px; }
+.putIn_icon       { background-position: -11px -1672px; }
+.save_icon        { background-position: -11px -1712px; }
+.collection_icon  { background-position: -11px -1732px; }
+.biling_icon      { background-position: -11px -1751px; }
+.ransom_icon      { background-position: -11px -1772px; }
+.fanDai_icon      { background-position: -11px -1793px; }
+.acount_icon      { background-position: -11px -1811px; }
+.orderCancel_icon { background-position: -11px -1832px; }
+.certificat_icon  { background-position: -11px -1874px; }
+.lock_icon        { background-position: -11px -1893px; }
+.partMent_icon    { background-position: -11px -2184px; }
+.addEmpl_icon     { background-position: -11px -2205px; }
+.deleEmpl_icon    { background-position: -11px -2226px; }
+.all_clearOutBtn  { background-position: -11px -1110px; }
+.select_contract  { background-position: -11px -1211px;}
+.marketingIcon    { background-position: 0 -465px;  }
+.afterSalesIcon   { background-position: 0 -2012px; }
+.inventoryIcon    { background-position: 0 -2045px; }
+.systemIcon       { background-position: 0 -2083px; }
+.finaceIcon       { background-position: 0 -2117px; }
+.masterIcon       { background-position: 0 -2153px; }
+
+/*定义全局表单控件的圆角边框*/
+input[type="text"],
+input[type="password"],
+textarea{ -moz-border-radius: 2px 2px 2px 2px;-webkit-border-radius: 2px 2px 2px 2px;-o-border-radius: 2px 2px 2px 2px;border-radius: 2px 2px 2px 2px; border: 1px solid #6699ff;  *border: 1px solid #999;padding-left: 3px;}
+
+/*定义所有输入表单的高度*/
+input[type="text"]        { height: 18px; line-height: 18px; vertical-align:middle;}
+
+/*定义全局disabled类型的表单的背景颜色为灰色*/
+input[disabled="disabled"]{ background-color: #eee; }
+
+/*定义全局readonly类型的表单的背景颜色为灰色*/
+input[readonly="readonly"]{ background-color: #eee; }
+
+/*定义全局disabled类型和readonly类型的表单的背景颜色为灰色*/
+.disalbed,
+.readonly{ background-color: #eee; cursor: not-allowed; }
+
+/**不可用的按钮字体变颜色*/
+.buttonDisalbed{ color: #999;cursor: not-allowed; }
+
+/*定义全局下拉列表的高度和边框样式*/
+select{ height: 20px; border: 1px solid #6699FF; *border: 1px solid #999;}
+
+/*页头所有要设置的浮动元素*/
+.header_logo,.header_tab li,.header_nav li{float: left;*display:inline;}
+.version{ display: none; font-size:16px; color:#49A2E8; text-indent: -9999px; width: 100px; height: 44px; background: #FFF url(../Images/salespad_logo.png) no-repeat center center; }
+
+/*对头部设置样式*/
+.header_top             { height: 44px; }
+/*.header_logo a          { display: block; width: 100px;height: 44px;text-indent: -9999px; background: #FFF url(../Images/salespad_logo.png) no-repeat center center; }*/
+.header_tab             { float: right;*display: inline; height: 44px;line-height: 44px; }
+.header_tab li          { margin-right: 8px;background-color: White; }
+.header_tab li a        { color: #06c; }
+.header_tab li a:hover  { text-decoration: underline; }
+.header_hi              { color: #666;padding-right: 5px; }
+.header_usename         { color: #9c0;padding-right: 5px; }
+.system_infor           { padding: 0 7px;position:relative; z-index: 10; background-color: White; border-left: 1px solid #0099ff; border-right: 1px solid #0099ff; }
+.password_nav a         { padding-right: 7px; border-right: 1px solid #0099ff; }
+.change_password        { padding-right: 7px; border-right: 1px solid #0099ff; }
+
+/*设置主导航样式*/
+.header_nav                         { height: 36px;font-size: 13px; font-weight: bold;letter-spacing: 1px;text-align: center; background: url("../Images/salespad_nav_bg.png") repeat-x; /* For IE 6 and 7 */}
+.header_nav ul                      { position: relative; }
+.header_nav li .showNav             { display: block;width: 93px;height: 36px;text-align: center;line-height: 36px;vertical-align: middle;color: #fff;background-position: 94px -122px;}
+.header_nav .nav_current .showNav   { background-position: 0 -123px; }
+.header_tab .nav_current            { background: none; }
+.header_nav li .showNav:hover       { background-position: -95px -123px;}
+.showSubNavBlock                    { position: absolute; left: -10px; z-index: 1000; width: 350px; *width: 320px; overflow: hidden; background-color: #FFF; text-align: left; border: 1px solid #A0CF11; border-top: none; border-bottom-width: 2px; padding: 10px 0; -moz-border-radius: 0px 0px 4px 4px;-webkit-border-radius:  0px 0px 4px 4px;-o-border-radius: 0px 0px 4px 4px; border-radius:  0px 0px 4px 4px; -moxz-box-shadow: 2px 2px 2px #eee;-webkit-box-shadow: 2px 2px 2px #eee;-o-box-shadow: 2px 2px 2px #eee;box-shadow: 2px 2px 2px #eee;}
+.showSubNav                         { float: left; *display: inline; width: 100px;*width: 90px; color: #999; padding: 0 8px; height: 21px; line-height: 21px; vertical-align: middle; font-size: 12px;}
+.showSubNav:hover                   { color: #09F; }
+.navigation                         { color: #09F; }
+
+ /**
+  *  设置系统信息提示的样式
+  */
+#system_infor_link        { width: 120px; position: absolute; top: -85px; left: 0;z-index: 50;padding: 10px; border: 1px solid #4d4d4d; background-color: White; }
+#system_infor_link p      { padding: 3px 10px; line-height: normal; text-align: left; }
+#tipsInfomation a         { color: Black; cursor: pointer;}
+.onlineBack               { position: absolute; left: 30px; top: 3px; }
+#system_infor_link a:hover{ color: #666; }
+#tipsInfomation em        { color: Red;  font-style: normal; }
+
+
+/*主要内容的样式*/
+.main       { text-align: left;margin-left: 25px;*margin-left: 15px;position: relative;}
+.maincontent    { width: 1080px; height: 500px;padding: 0 15px;position: absolute;z-index: 2;top: 0;*top:2px;bottom: 0;left: 199px;background-color: #fff;border: 1px solid #eee;-moz-border-radius: 4px 4px 4px 4px;-webkit-border-radius: 4px 4px 4px 4px;-o-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;-moz-box-shadow: 2px 2px 2px #eee;-webkit-box-shadow: 2px 2px 2px #eee;-o-box-shadow: 2px 2px 2px #eee;box-shadow: 2px 2px 2px #eee;}
+#slice_sidbar   { width: 10px;height: 31px; position: absolute; top: 30px; left: 0;cursor: pointer; background-position: -19px -896px;}
+#mainContent    { position: relative;}
+
+/**
+ * 首页样式
+ */
+
+/*首页的总体样式*/
+.indexPage_sub_header,
+.indexPage_main{ text-align: left;margin: 0 2% 12px 2%; height:100%; }
+
+.indexPage_sub_header,
+.indexPage_subcontent,
+.indexPage_maincontent{ border: 1px solid #eee;-moz-border-radius: 4px 4px 4px 4px;-webkit-border-radius: 4px 4px 4px 4px;-o-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;}
+
+/*左浮动*/
+.sub_header_shop,
+.sub_header_shop p,
+.sub_header_shop h2,
+.sub_header_tab li,
+.sub_header_tab li p,
+.weather_temperature,
+.indexPage_subcontent,
+.subcontent_header h3,
+.view_detail li,
+.search p,
+.search_detail li{float: left;*display:inline;}
+
+/*右浮动*/
+.sub_header_tab,
+.subcontent_header a,
+.messageTime,
+.search{float: right;*display: inline;}
+
+/*设置indexPage_sub_header样式*/
+.indexPage_sub_header { overflow: hidden;height: 42px;line-height: 42px;vertical-align: middle;}
+.sub_header_shop h2   { margin: 0 15px 0 14px;height: 42px;line-height: 42px;padding-left: 40px;font-size: 16px;background-position: -10px -269px;}
+.sub_header_shop p    { font-size: 13px;color: #999;}
+.sub_header_tab       { color: #000; margin-right: 20px;}
+.onlin_server,.data,
+.show_weather         { padding-left: 35px;}
+.weather_temperature  { line-height: normal; margin: 8px 0 0 10px; }
+.weather_temperature p{ height: 42px; }
+.onlin_server         { background-position: -7px -312px;}
+.data                 { background-position: -9px -228px; color: #999;}
+.show_weather         { background-position: -7px -188px;}
+.sub_header_tab li    { margin-right: 5px; }
+.sub_header_tab_line  { color: #99c;margin: 0 5px;}
+
+
+/*设置indexPage_main样式*/
+.indexPage_main{ position: relative; }
+
+/*侧边标题栏的样式*/
+.indexPage_subcontent       { width: 23%;height: 500px;float: left; }
+.subcontent_header          { height: 24px;line-height: 24px;vertical-align: middle;padding-left: 10px;margin-bottom: 12px;border-top: 1px solid #eee;background: url("../Images/salespad_title_bg.png") repeat-x;}
+.subcontent_header h3       { font-size: 12px; color: #666;}
+.subcontent_header a        { margin-right: 12px; color: #06c; }
+.subcontent_title           { margin-bottom: 12px; }
+.subcontent_title li        { position:relative; margin: 0 0 2px 12px; height: 18px; overflow: hidden; }
+.subcontent_title li a      { float: left; width: 200px;height: 18px; vertical-align: bottom; overflow: hidden; color: #333;letter-spacing: 1px; -ms-text-overflow: ellipsis; -o-text-overflow: ellipsis; text-overflow: ellipsis;  }
+.subcontent_title li a span { color: #333;letter-spacing: 1px; width: 200px; }
+.subcontent_title li a:hover span{ color: #f93;text-decoration: underline; }
+.messageTime  { float: right; margin-right: 10px;}
+.systent_header             { border-top:none; }
+
+/**
+ *  今日提醒模块与待办事项模块样式
+ *  todayTip and todoList
+ */
+.indexPage_maincontent{ width: 75%;float: right;position: relative;height: 500px;}
+.indexBorderBox{ border: 1px solid #eee;-moz-border-radius: 4px;-webkit-border-radius: 4px;-o-border-radius: 4px;border-radius: 4px; }
+.indexBorderBox h3{ color: Black; }
+.indexBorderBox .subcontent_header{ margin-bottom: 0; }
+.indexPagePopupLayer #wrapBox { overflow: hidden; border: 1px solid #6699ff;-moz-border-radius: 8px;-webkit-border-radius: 8px;-o-border-radius: 8px;border-radius: 8px;}
+.tipInformation{ height: 273px; }
+.tipInfoTime{ width: 25%; text-align: center; }
+.tipInfoList{ width: 75%; *width: 73%;}
+.tipInfoTimeCont{ height: 202px; margin-top: 30px; background: #fff url(../Images/indexCalendar.png) no-repeat center center; text-align: center; }
+.tipInfoTimeCont .month{ height: 32px; line-height: 32px; vertical-align: middle; padding-top: 30px; font-size: 25px; color:#f3f3f3; }
+.tipInfoTimeCont .day{ height: 120px; line-height: 120px; vertical-align: middle; text-align: center; font-family: 'Arial', Gadget, sans-serif; font-size: 100px; font-weight:bold; color:#292929; }
+.tipInfoTableCont{ width: 98%; margin-top: 30px; border: 1px solid #dcdcdc;-moz-border-radius: 4px;-webkit-border-radius: 4px;-o-border-radius: 4px;border-radius: 4px; }
+.tipInfoTableCont table{ width: 100%; text-align: center; }
+.tableHeader th{ width: 33.333333%; background-color: #e7e7e7; height: 30px; line-height: 30px; vertical-align: middle; color: #7f7f7f; }
+.tableContentBox{ height: 180px; overflow-x: hidden; overflow-y: auto; }
+.tableContentInner td{ width: 33.333333%; height: 35px; line-height: 35px; vertical-align: middle; border-top: 1px solid #dcdcdc; color: #000; }
+
+.todoList { height: 155px; overflow-x: hidden; overflow-y: auto; }
+.todoList p{ float: left; *display: inline; width: 130px; height: 75px; margin: 40px 0 0 25px; background: #FFF url(../Images/indexTodoListBlue.png) no-repeat center center; text-align: center;}
+.todoListTitle{ display: block; height: 30px; line-height: 30px; vertical-align: middle; font-family: 微软雅黑 'Arial Black', Gadget, sans-serif; font-size: 13px; color: #fff; }
+.todoList a{ display: block; width: 100%; height: 40px; line-height: 40px; vertical-align: middle; font-family: 'Arial', Gadget, sans-serif; font-size: 24px; color: #1f7fd6; }
+.todoList a:hover span{ color: #f17805; }
+.todoList .redtodoListBg{ background: #FFF url(../Images/indexTodoListRed.png) no-repeat center center; }
+.todoList .redtodoListBg a{ color: red; }
+
+/*首页弹出层样式*/
+.infoArtical{ height: 400px; overflow-y: auto; overflow-x: hidden; width: 95%; margin: 0 auto;}
+.messageInfoView { width: 100%; }
+.articalTitle{ padding-top: 10px; text-align: center; font-size: 24px; font-weight: normal;color: #333; }
+.articalTime{ text-align: center; padding: 10px 0; }
+.articalTime span{ padding: 0 10px; }
+.articalContent { text-indent: 2em; line-height: 2.0; font-size: 14px; }
+.articalContent span{ display: block; width: 90%; margin: 0 auto; padding: 0 30px; }
+.articalFeedback{ margin-top: 20px; padding-left: 30px; }
+.articalContent p{ text-indent: 2em; line-height: 2.0; font-size: 14px; }
+.feedbackLabel{ position: relative; margin-left: 40px; }
+.feedbackLabel span{ position: absolute; top: 0; left: -40px; }
+.feedbackLabel textarea{ width: 98%; height: 50px; border: 1px solid #6699ff; overflow-x: hidden; overflow-y: auto;}
+
+/*侧边栏的样式*/
+.sidbar        { width:200px;height: 480px;padding-top: 30px;}
+.sub_nav       { margin-bottom: 12px;font-size: 13px;color: #000;border: 1px solid #eee;-moz-border-radius: 4px 4px 4px 4px;-webkit-border-radius: 4px 4px 4px 4px;-o-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;-moz-box-shadow: 2px 2px 2px #eee;-webkit-box-shadow: 2px 2px 2px #eee;-o-box-shadow: 2px 2px 2px #eee;box-shadow: 2px 2px 2px #eee;}
+.sub_nav h2    { height: 32px;line-height: 32px;vertical-align: middle;font-size: 13px;margin-left: 1px;margin-bottom: 12px;background: url("../Images/salespad_list_bg_001.png") repeat-x;}
+.sub_nav h2 p  { padding-left: 40px;}
+.switch_subNav              { position: relative;height: 360px; z-index:100;}
+.sub_nav ul                 { height: 360px;margin-bottom: 12px;width: 100%; padding-left: 8px;}
+.showNav                    { display: block;height: 36px;line-height: 36px;color: #000;vertical-align: middle;margin-left: 3px;background-position: -14px -845px;}
+.showNav:hover              { color: #FFF; }       
+.sub_nav ul .nav_current    { width:192px; height: 36px;border: 1px solid #eee; border-right: none; -moz-border-radius: 4px 4px 4px 4px;-webkit-border-radius: 4px 4px 4px 4px;-o-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;}
+.sub_nav ul .nav_current a  { color: #0099ff;background-color: #fff;}
+.online_server a            { display: block;height: 50px;color: #000;line-height: 50px;vertical-align: middle;border-top: 1px dashed #ccc;margin-left: 2px;padding-left: 50px;background-position: 0 -312px;}
+.sub_handle_guid            { display: block;background-color: #ccecf9;height: 58px;border: 1px solid #eee;-moz-border-radius: 4px 4px 4px 4px;-webkit-border-radius: 4px 4px 4px 4px;-o-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;}
+.sub_nav ul li a            { display: block;height: 36px;line-height: 36px;color: #000;vertical-align: middle;margin-left: 3px;padding-left: 28px;background-position: -14px -845px;}
+.sub_nav ul li a:hover      { color: #0099ff; }       
+
+/**
+ * 侧边栏移动样式
+ */
+.switch_page                { text-align: center;  height:25px;  line-height: 25px;  vertical-align: middle; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background: url("../Images/salespad_list_bg.png") repeat-x;  }
+.switch_page span           { float: left;*display: inline; width: 30%; padding-left: 20px;padding-right: 5px; height: 25px; line-height: 25px; vertical-align: middle; cursor: pointer;  background: url("../Images/sprite_icon.png") no-repeat;}
+.switch_page .last_position1{ border-right: 1px solid #ddd; background-position: -0px -1929px; }
+.switch_page .next_position1{ background-position: -0px -1948px; }
+.switch_page .last_position2{ border-right: 1px solid #ddd; background-position: -0px -1988px;}
+.switch_page .next_position2{ background-position: -0px -1968px; }
+
+/*查询标题*/
+.condition_search { margin-bottom: 12px;text-align:left; }
+.search_title     { height: 36px;line-height: 36px;vertical-align: middle;margin-bottom: 8px;border-bottom: 1px dashed #DDD;}
+.total_title      { float: left;font-size: 13px;color: #666;padding-left: 40px;}
+.search_title h3  { background-position: 0 -492px; }
+.switch           { float: right;width:20px;height:20px;margin-top: 12px;margin-right: 25px;background-position: -19px -754px;cursor: pointer;}
+.clickToReflesh   { cursor: pointer;color: #09F;text-decoration: underline;float: right; margin-right: 30px;  margin-top: 5px;}
+
+/*条件查询详细*/
+.search_detail              { padding: 0 0 10px 0;position: relative;margin-bottom: 12px;border-bottom: 1px dashed #DDD; }
+.search_detail p            {  *z-index: 5; padding: 3px 5px;}
+.search_detail p ul li:hover{ background-color: #fcd7b2; }
+.search_detail .search_table ul                     { margin-left: 20px; }
+.search_detail .search_table ul li                  { float: left;width: 150px; height: 24px; padding-left: -5px;line-height: 24px; vertical-align:middle;}
+.search_detail .search_table ul .attributeList      { color: #0099FF; text-decoration: underline; }
+.search_detail .search_table ul li a                { color: Black; padding: 3px 0px; }
+.search_detail .search_table ul li a:hover          { color: #0099FF; }
+.search_detail .search_table ul .currentSelected a  { color: #0099FF; text-decoration: underline; }
+.search_table table     { width: 100%; }
+.search_detail td       { height: 28px; line-height: 28px; vertical-align: middle; }
+.input_text             { width: 80px; }
+.search_detail select   { height: 22px;}
+.search_detail input            { height: 18px; line-height: 18px; vertical-align: middle; border: none;border: 1px solid #6699ff;*border: 1px solid #999;}
+.search_detail .search_btn      { position: absolute;bottom: 10px; right: 5px; border: none;color: white; font-weight: bold; font-size: 13px; letter-spacing: 8px; width: 84px;height: 28px; cursor: pointer; padding: 0px 0px 5px 15px;background-position: 0 -288px;}
+
+/*表格样式*/
+.total_table                        { margin-bottom: 12px;}
+.total_table table                  { width: 100%;}
+.total_table thead th               { text-align: center;color: #000; }
+.total_table th,
+.total_table thead td               {text-align: center; padding: 2px 0; *padding: 0; font-weight: bold;border: 1px solid #99ccff;border-right: 0; background: url("../Images/salespad_tabcap.png") repeat-x;}
+.total_table .total_table_contral   { width: 60px; border-right: 1px solid #99ccff;}
+.total_table tr                     { height: 24px;*height: 18px;}
+.total_table tbody tr:nth-child(odd) { background-color: #FFF;}
+.total_table tbody tr:nth-child(even){ background-color: #EAF1F9;}
+.total_table tbody tr:hover         { background-color: #CBDDF0;}
+.total_table td                     { border: none; }
+.total_table div td                 { border: none; border-bottom: 1px solid #FFF;}
+.total_table tbody tr p             { overflow: hidden; white-space:nowrap; -ms-text-overflow:clip; -o-text-overflow: clip; text-overflow:clip; }
+.total_table td.delete              { text-align: center; }
+.delete a                           { display: inline-block;*zoom: 1;width: 48px;text-align: center;height: 19px;color: #353535;padding-top: 3px;margin: 0 auto;cursor: pointer;background-position: 0 -260px;}
+.delete input                       { width: 48px;text-align: center;height: 22px;color: #353535;padding: 3px 0;cursor: pointer;border: none;background-position: 0 -260px;}
+.delete a:hover                     { color: #0066CC; }
+.zebracrossing { background-color: #EAF1F9; }
+.total_table tbody tr.clickzebracrossing{ background-color: #FFF8AA;border-bottom: 1px solid #FFF; }
+
+/**
+ * salesPad_pages（分页）样式
+ */
+.page               { height: 28px;line-height: 28px;vertical-align: middle;padding-top: 5px;padding-right: 20px; border-top: 1px solid #99ccff; }
+.page p             { margin-left: 5px;overflow: hidden;}
+.page_number a      { margin-left: 5px;padding: 2px 5px;height: 16px;line-height: 16px;vertical-align: middle;color: #3e5463;border: 1px solid #bfd0dd;cursor: pointer;}
+.page_number a:hover{ color: #0066CC;border-color: #0066CC;}
+a.page_index,
+a.page_pre,
+a.page_last         { border-color: #e9e6eb;color: #666;}
+a.page_current      { border: none;color: #ff9966;}
+a.page_no           { border: none;}
+
+/*编辑样式*/
+.edit        { overflow: hidden;}
+.edit h3     { background-position: 5px -364px;}
+.edit ul     { overflow: hidden;float: right;*display: inline;}
+.edit p      { padding-top:3px;}
+.edit select { width: 159px;}
+.edit li  { float: left;*display: inline;*zoom: 1;margin-left: 5px;padding:2px 7px;padding:4px 7px 3px 7px\9;*padding:4px 4px 2px 4px;border: 1px solid #D0D0E8;cursor: pointer;-moz-border-radius: 2px 2px 2px 2px;-webkit-border-radius: 2px 2px 2px 2px;-o-border-radius: 2px 2px 2px 2px;border-radius: 2px 2px 2px 2px;background: url("../Images/salespad_list_bg.png") repeat-x;}
+.edit input{border: none;padding-left: 20px;*padding-left: 10px;cursor: pointer;}
+
+/*系统参数页面样式*/
+.param_tab                  { margin-bottom: 12px;border-bottom: 1px solid #9db4cd; position: relative; height: 25px;  z-index: 100;}
+.param_tab li               { float: left; position: absolute; top: -1px; height: 25px; line-height: 25px; vertical-align: middle; text-align: center; border: 1px solid #9db4cd; -moz-border-radius: 4px 4px 0px 0px;-webkit-border-radius: 4px 4px 0px 0px; -o-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px;cursor: pointer;  background: url("../Images/salespad_list_bg_001.png") repeat-x;}
+.stockDays                  { width: 70px;}
+.workGroup                  { width: 95px; left: 77px;}
+.param_tab .tab_list_current{ z-index: 9999; top: 0px; background: none; background-color: White;  border-bottom: none;}
+
+/**
+ * 对表单验证时的错误提示信息
+ */
+.numberTipInformation{ position:absolute;z-index:90;top:-20px;left:5px;width: 110px;background-color: #ffff99;border: 1px solid #FFE616;color:red;font-size:12px;-moz-box-shadow: 2px 2px 6px #bbb; -webkit-box-shadow: 2px 2px 6px #bbb;-o-box-shadow: 2px 2px 6px #bbb;box-shadow: 2px 2px 6px #bbb;-moz-border-radius: 4px 4px 4px 4px;-webkit-border-radius: 4px 4px 4px 4px;-o-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;}
+.numberTipInformation span{ position: absolute;left: 7px;bottom: -13px;display: inline-block;width: 15px;height: 15px;background: url("../Images/errorTip_icon.png") no-repeat;}
+.numberTipInformation p{ line-height: 18px; margin:0; text-align: center; letter-spacing: 1px; padding: 3px 0;}
+
+.numberTipInformation2{ position:absolute;z-index:1000;top:25px;left:-45px;*left:-75px;width: 100px;background-color: #ffff99;border: 1px solid #FFE616;padding:5px; color:red;font-size:12px;-moz-box-shadow: 2px 2px 6px #bbb; -webkit-box-shadow: 2px 2px 6px #bbb;-o-box-shadow: 2px 2px 6px #bbb;box-shadow: 2px 2px 6px #bbb;-moz-border-radius: 4px 4px 4px 4px;-webkit-border-radius: 4px 4px 4px 4px;-o-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;}
+.numberTipInformation2 span{ position: absolute;right: 7px;top: -11px;display: inline-block;width: 15px;height: 15px;background: url("../Images/errorTip_icon2.png") no-repeat;}
+.numberTipInformation2 p{ line-height: 18px; margin:0; text-align: center; letter-spacing: 1px;}
+
+.numberTipInformation3{ position:absolute;z-index:90;top:-30px;left:-85px;width: 100px;background-color: #ffff99;border: 1px solid #FFE616;padding:5px; color:red;font-size:12px;-moz-box-shadow: 2px 2px 6px #bbb; -webkit-box-shadow: 2px 2px 6px #bbb;-o-box-shadow: 2px 2px 6px #bbb;box-shadow: 2px 2px 6px #bbb;-moz-border-radius: 4px 4px 4px 4px;-webkit-border-radius: 4px 4px 4px 4px;-o-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;}
+.numberTipInformation3 span{ position: absolute;right: 7px;bottom: -13px;display: inline-block;width: 15px;height: 15px;background: url("../Images/errorTip_icon.png") no-repeat;}
+.numberTipInformation3 p{ line-height: 18px; margin:0; text-align: center; letter-spacing: 1px; }
+
+/**
+ * 系统错误信息提示样式
+ */
+table td .inputErrorStyle{ border: 1px solid red; }
+table td select.inputErrorStyle{ *background-color: red; }
+
+/**
+ * salesPad_change_password（密码）样式====
+ */
+.password_main          { width: 90%;height: 487px;margin: 0 auto;border: 1px solid #eee;-moz-border-radius: 4px 4px 4px 4px;-webkit-border-radius: 4px 4px 4px 4px;-o-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;-moz-box-shadow: 2px 2px 2px #eee;-webkit-box-shadow: 2px 2px 2px #eee;-o-box-shadow: 2px 2px 2px #eee;box-shadow: 2px 2px 2px #eee;}
+.password_main td       { font-size: 12px;}
+.password_maincontent   { width: 448px;height: 275px;margin: 60px auto 0;}
+.password_maincontent h2{ height: 36px;line-height: 36px;vertical-align: middle;text-align: left;font-size: 14px;padding-left: 35px;background-position: -10px -390px;}
+.content_box            { width: 394px;padding-left:  40px;padding-top: 45px;border: 5px solid #99cc00;-moz-border-radius: 4px 4px 4px 4px;-webkit-border-radius: 4px 4px 4px 4px;-o-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;}
+.password_line          { height: 30px;line-height: 30px;vertical-align: middle;}
+.password_text          { width: 90px;text-align: right;}
+.password_line input    { border: 1px solid #5aacf0;height: 20px;font-size: 14px;font-weight: bold;color: #DDD;}
+.password_newps_tip     { color: #666;}
+.password_submit        { text-align: center;}
+.password_submit input  { width: 88px;height: 27px;line-height: 27px;vertical-align: middle;color: #fff;letter-spacing: 3px;cursor: pointer;border: none;background-position:0 -46px;}
+.password_error_infor   { height: 30px;line-height: 30px;vertical-align: middle;margin-left: 60px;padding-left: 40px;color: red;font-weight: bold;background-position:-9px -442px;}
+.password_inputText     { position: relative; }
+.errorIcon              { position: absolute; right: 10px; top: -2px; color: Red; }
+
+/**
+ * 所有弹出层底部的按钮的样式
+ */
+.form_btn   { position: fixed; bottom: 15px; right: 25px;overflow: hidden; z-index: 10; *padding-left: 30px; }
+.form_btn li{ display:inline; margin: 0 7px; }
+.form_btn input{ width: 88px; height: 27px; line-height: 27px; text-align: center; vertical-align: middle; cursor: pointer; border: none; color: White; background-position: 0 -46px; }
+
+/**
+ * 弹出层按钮不定位样式
+ */
+.form_btn_static{ position:static; margin-top: 20px; text-align: center; }
+
+/**
+ *  所有弹出层的共通样式
+ */
+.specific_page,
+.pageBox{ position: absolute; width: 100%; height: 480px; top: 0px; left: 0px; z-index: 105; padding-top: 15px;}
+.dialog{ background-color: #FFF;filter: alpha(opacity = 70 ); -moz-opacity: 0.7; -khtml-opacity: 0.7; opacity: 0.7; width: 100%; height: 100%;left: 0; position: fixed;top: 0;z-index: 10;}
+
+/*定位样式*/
+.specificPageEdit   { width: 100%; text-align: left; z-index: 10; color: Black;}
+
+/*表单定位样式*/
+.specificPageEdit form      { width: 100%;background-color: White;}
+.specificPageEdit .form     { width: 100%;text-align: left; background-color: White;}
+.boxShadow{ -webkit-box-shadow: 0 2px 3px #bbb; box-shadow: 0 2px 3px #bbb; padding-bottom: 20px; *border-bottom: 1px solid #ddd; }
+
+/*头部样式*/
+.specificPage_header{ height: 28px; line-height: 28px; vertical-align: middle;background-color: #5aacf0;border-radius: 6px 6px 0 0;}
+.specificPage_title { margin-left: 10px; padding-left: 25px; color: White; font-size: 14px; font-weight: normal; background-position: -11px -1145px;}
+
+/*灰色标题的样式*/
+.specificPageEdit h5{ height: 25px; line-height: 25px; vertical-align:middle; padding-left: 20px;margin-bottom: 5px;text-align: left; background-color: #EEE; font-size: 13px; font-weight: normal;}
+
+/*关闭图标的样式*/
+.closePage{ width: 24px; height: 24px; margin: 3px 10px 0 0; text-indent: -9999px; cursor: pointer; background-position: -11px -1037px;}
+.closeChildIframe{ position:absolute;right: 20px; top: 5px; z-index:100; width: 28px; height: 28px; text-indent: -9999px; background: url("../Images/close_image.png") no-repeat; cursor: pointer; } 
+.closeTodo       {position: fixed;right: 100px; top: 0px;z-index: 310;}
+#closePage{ position: absolute; top: -3px; right: -8px; }
+
+/*tab列表的样式*/
+.activeEdite_tab_list                   { height: 23px; text-align: left; padding-top: 5px; background-color: #f6f6f6; color: Black; margin-bottom: 10px;}
+.activeEdite_tab_list p                 { padding-top: 2px; margin-left: 15px;}
+.activeEdite_tab_list span              { padding: 3px 16px; padding-bottom: 5px; letter-spacing: 3px; cursor: pointer;}
+.activeEdite_tab_list .tab_list_current { color: #0099FF; background-color: White;border-top: 1px solid #cbcbcb; border-left: 1px solid #ededed; border-right: 1px solid #ededed;}
+
+/**
+ * salesPad_footer（页脚）样式
+ */
+.footer{ position: fixed;z-index: 1000;bottom: 0px;left: 0;width: 100%;height: 24px;line-height: 24px;vertical-align: middle;color: #fff;background-color: #09f;}
+
+/**
+ * 点击部门信息弹出的对话框的样式
+ */
+.departmentMenuList   { position: absolute;left: 250px; top: 115px; z-index:10; width: 250px; height: 320px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; -o-border-radius: 4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; background-color: #5AACF0; -moz-box-shadow: 2px 2px 2px #eee; -webkit-box-shadow: 2px 2px 2px #eee; -o-box-shadow: 2px 2px 2px #eee; box-shadow: 2px 2px 2px #eee; padding: 0 1px;}
+.departmentMenuList h3{ height: 28px; line-height: 28px; vertical-align: middle; color: White; padding: 0 10px; background-image: none; font-size: 13px;}
+.departmentMenuList ul{ float: none; margin-top: 10px;}
+.menuControl          { background-color: White;}
+.menuContent          { height: 230px; overflow-y: scroll;}
+.closeMenu            { background-color: White; font-size: 2px; width: 12px; height: 2px; margin-top: 15px; cursor: pointer;}
+
+/**
+ * 空白按钮样式
+ */
+.editbutton {padding: 5px 10px; letter-spacing: 1px; *padding: 2px;*margin-bottom: 5px; *width: 100px; border: 1px solid #D0D0E8;cursor: pointer;-moz-border-radius: 2px 2px 2px 2px;-webkit-border-radius: 2px 2px 2px 2px;-o-border-radius: 2px 2px 2px 2px;border-radius: 2px 2px 2px 2px;background: url("../Images/salespad_list_bg.png") repeat-x;}
+
+.editbutton_1 {padding: 5px 10px; letter-spacing: 1px; color: #FFF; *padding: 2px; border: 1px solid #D97200;cursor: pointer;-moz-border-radius: 2px 2px 2px 2px;-webkit-border-radius: 2px 2px 2px 2px;-o-border-radius: 2px 2px 2px 2px;border-radius: 2px 2px 2px 2px;background: url("../Images/currentBg.png") repeat-x;}
+.smallbutton { padding: 2px 15px;border: 1px solid #D0D0E8;cursor: pointer;-moz-border-radius: 2px 2px 2px 2px;-webkit-border-radius: 2px 2px 2px 2px;-o-border-radius: 2px 2px 2px 2px;border-radius: 2px 2px 2px 2px;background: url("../Images/salespad_list_bg.png") repeat-x;}
+.refleshBtn{ border: none; width:20px; height: 18px;margin-left: 3px;cursor: pointer; background: url("../Images/sprite_icon.png") no-repeat -11px -2250px;}

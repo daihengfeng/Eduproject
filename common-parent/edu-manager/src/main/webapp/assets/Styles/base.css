@@ -1,0 +1,205 @@
+﻿/*
+	样式用途：本样式用于整站的css架构
+	样式编写时间：2012年2月28号
+	样式编写人:钟万山
+	
+	增加input label select table 
+	增加时间：2012年3月28日
+        增加iframe
+        增加时间：2012年5月18日
+        增加a{ outline:none; },增加时间: 2012-05-24
+        增加.bgcblack{ background-color: Black; },增加时间：2012-08-07
+*/
+
+/*简短的css reset*/
+body{ line-height: 1.4; background: white;}
+body,input,textarea,select{ font-size: 12px; color: #333; }
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{ margin: 0; }
+ul,ol{ padding-left: 0; list-style-type: none; }
+a img{ border: 0; }
+a{ outline:none; }
+/*form*/
+input,select,label{vertical-align:middle;}
+iframe{ border: none; }
+/*
+   通用css样式库
+	      float : left right both
+	clear-float : both { content : 'clear'; dispaly: block; line-height: 0; height: 0; font-size: 0; overflow: hidden; visibility: hidden; }
+	       font : font-size  font-weight  font-style  font-family  color
+	       text : text-decoration  text-align 
+	      align : vertical-align
+	     margin : margin-top  margin-right  margin-bottom  margin-left
+	    padding : padding-top  padding-right  padding-bottom  margin-left
+	   position : relative  absolute
+	    display : inline  inline-block  block
+	   overflow : hidden  scroll
+	 visibility : visible  hidden
+	line-height : 14px 16px 18px 20px 24px
+*/
+
+/*about float*/
+.l{ float: left; display: inline; }
+.r{ float: right; display: inline; }
+.cf{ clear: both; }
+
+
+/*about font style*/
+.fwn{ font-weight: normal; font-style:normal; }
+.fwb{ font-weight: bold; }
+.fsi{ font-style:italic; }
+
+/*about font family*/
+.fa{ font-family: Arial; }
+.fg{ font-family: Georgia; }
+.ft{ font-family: Tahoma; }
+.fl{ font-family: Lucida Console; }
+.fs{ font-family: '宋体'; }
+.fw{ font-family: '微软雅黑'; }
+
+/*about font size*/
+.f0{ font-size: 0; }
+.f10{ font-size: 10px; }
+.f12{ font-size: 12px; }
+.f13{ font-size: 13px; }
+.f14{ font-size: 14px; }
+.f16{ font-size: 16px; }
+.f20{ font-size: 20px; }
+.f24{ font-size: 24px; }
+
+/*about text align and text decoration*/
+.tac{ text-align: center; }
+.tar{ text-align: right; }
+.tal{ text-align: left; }
+.tdu{ text-decoration: underline; }
+.tdn,.tdn:hover,tdu:hover{ text-decoration: none; }
+
+/*about font color*/
+.c0{ color: #000; }
+.c3{ color: #333; }
+.c6{ color: #666; }
+.c9{ color: #999; }
+.red{ color: red; }
+.white{ color: white; }
+
+/*about aling*/
+.vam{ vertical-align: middle; }
+.vab{ vertical-align: text-bottom; }
+.vat{ vertical-align: top; }
+.va-2{ vertical-align: -2px; }
+.va-3{ vertical-align: -3px; }
+
+/*about margin*/
+.ml1{ margin-left: 1px; }
+.ml2{ margin-left: 2px; }
+.ml5{ margin-left: 5px; }
+.ml15{ margin-left: 15px; }
+.ml10{ margin-left: 10px; }
+.ml20{ margin-left: 20px; }
+
+.mr1{ margin-right: 1px; }
+.mr2{ margin-right: 2px; }
+.mr5{ margin-right: 5px; }
+.mr15{ margin-right: 15px; }
+.mr10{ margin-right: 10px; }
+.mr20{ margin-right: 20px; }
+
+.mt1{ margin-top: 1px; }
+.mt2{ margin-top: 2px; }
+.mt5{ margin-top: 5px; }
+.mt15{ margin-top: 15px; }
+.mt10{ margin-top: 10px; }
+.mt20{ margin-top: 20px; }
+
+.mb1{ margin-bottom: 1px; }
+.mb2{ margin-bottom: 2px; }
+.mb5{ margin-bottom: 5px; }
+.mb15{ margin-bottom: 15px; }
+.mb10{ margin-bottom: 10px; }
+.mb20{ margin-bottom: 20px; }
+
+.m0{ margin: 0; }
+.ml-1{ margin-left: -1px; }
+.mt-1{ margin-top: -1px; }
+
+/* about padding
+ * the value are 1px 2px 5px 10px 20px;
+*/
+.p1{ padding: 1px; }
+.p2{ padding: 2px; }
+.p5{ padding: 5px; }
+.p15{ padding: 15px; }
+.p10{ padding: 10px; }
+.p20{ padding: 20px; }
+
+.pl1{ padding-left: 1px; }
+.pl2{ padding-left: 2px; }
+.pl5{ padding-left: 5px; }
+.pl15{ padding-left: 15px; }
+.pl10{ padding-left: 10px; }
+.pl20{ padding-left: 20px; }
+
+.pr1{ padding-right: 1px; }
+.pr2{ padding-right: 2px; }
+.pr5{ padding-right: 5px; }
+.pr15{ padding-right: 15px; }
+.pr10{ padding-right: 10px; }
+.pr20{ padding-right: 20px; }
+
+.pt1{ padding-top: 1px; }
+.pt2{ padding-top: 2px; }
+.pt5{ padding-top: 5px; }
+.pt15{ padding-top: 15px; }
+.pt10{ padding-top: 10px; }
+.pt20{ padding-top: 20px; }
+
+.pb1{ padding-bottom: 1px; }
+.pb2{ padding-bottom: 2px; }
+.pb5{ padding-bottom: 5px; }
+.pb15{ padding-bottom: 15px; }  
+.pb10{ padding-bottom: 10px; }
+.pb20{ padding-bottom: 20px; }
+
+/*about position*/
+.rel{ position: relative; }
+.abs{ position: absolute; }
+
+/*about display*/
+.dn{ display: none; }
+.db{ display: block; }
+.dib{ -moz-inline-stack: inline-block;display: inline-block; }
+.di{ display: inline; }
+
+/*about overflow and visibility*/
+.ovh{ overflow: hidden; }
+.ovs{ overflow: scroll; }
+.vh{ visibility: hidden; }
+.vv{ visibility: visible; }
+
+/*about line height */
+.lh14{ line-height: 14px; }
+.lh16{ line-height: 16px; }
+.lh18{ line-height: 18px; }
+.lh20{ line-height: 20px; }
+.lh22{ line-height: 22px; }
+.lh24{ line-height: 24px; }
+
+/*about clear float*/
+.fix{ *zoom: 1; }
+.fix:after,
+.fix:before{ display: block;content: 'clear'; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+
+/* about IE layout property */
+.z{ _zoom: 1; }
+
+
+/*table*/
+.bcc{border-collapse:collapse;}
+/* background-color */
+.bgcwhite{background-color: White;}
+.bgcblack{ background-color: Black; }
+
+
+
+
+
+

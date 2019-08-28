@@ -1,0 +1,15 @@
+﻿/*--------------------------------------------
+	样式表用途：用于桥接整站的各个样式表
+	样式编写时间：2013.01.07
+	样式编写人：钟万山
+	联系方式：TEL/15817175804 QQ/764341548
+---------------------------------------------*/
+	@import 'base.css';
+	@import 'common.css';
+	
+body{
+	text-align: center;
+	background-color: #fff;
+	font-family: "微软雅黑","SimSun","宋体","Arial Narrow";
+}
+a{text-decoration: none;}	
