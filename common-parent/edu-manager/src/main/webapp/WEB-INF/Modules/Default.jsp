@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta content="郭永峰IT教育系统" name="keywords" />
-<meta content="郭永峰IT教育系统" name="description" />
+<meta content="代恒峰IT教育系统" name="keywords" />
+<meta content="代恒峰IT教育系统" name="description" />
 <title>教育后台管理系统</title>
 <link rel="Stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/Styles/bridging.css"/>
 <script type="text/javascript" src="${pageContext.request.contextPath}/assets/Scripts/jquery-1.7.2.min.js"></script>
@@ -45,9 +45,19 @@
 							data-url="${pageContext.request.contextPath}/user/manage.do">用户管理</a>
 						</li>
 						<li class="navContent">
-							<a href="#" class="showNav" id="finance" data-name="main_iframe"
+							<a href="#" class="showNav" id="department" data-name="main_iframe"
+							   onclick="Common.switchNavigation(this);"
+							   data-url="${pageContext.request.contextPath}/department/manage.do">部门管理</a>
+						</li>
+						<li class="navContent">
+							<a href="#" class="showNav" id="employee" data-name="main_iframe"
 							onclick="Common.switchNavigation(this);"
-							data-url="${pageContext.request.contextPath}/salar/manage.do">工资管理</a>
+							data-url="${pageContext.request.contextPath}/employee/manage.do">员工管理</a>
+						</li>
+						<li class="navContent">
+							<a href="#" class="showNav" id="salar " data-name="main_iframe"
+							   onclick="Common.switchNavigation(this);"
+							   data-url="${pageContext.request.contextPath}/salar/manage.do">订单管理</a>
 						</li>
 					</ul>
 				</nav>

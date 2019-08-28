@@ -6,7 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a00e181-adf2-4e69-811b-cb8af1110755" name="Default Changelist" comment="" />
+    <list default="true" id="8a00e181-adf2-4e69-811b-cb8af1110755" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/user/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/user/manage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/user/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Salary/UserEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Salary/UserInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Salary/UserManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Salary/UserUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/salary/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/salary/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/salary/manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/salary/update.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/common-parent/target/" />
     <ignored path="$PROJECT_DIR$/common-parent/edu-model/target/" />
     <ignored path="$PROJECT_DIR$/common-parent/edu-dao/target/" />
@@ -31,7 +49,7 @@
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="6" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
@@ -40,14 +58,14 @@
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="32" />
-          <entry key="jsp" value="13" />
+          <entry key="java" value="35" />
+          <entry key="jsp" value="20" />
           <entry key="properties" value="11" />
           <entry key="xml" value="96" />
           <entry key="xsd" value="1" />
@@ -56,16 +74,16 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="32" />
-          <entry key="JSP" value="13" />
+          <entry key="JAVA" value="35" />
+          <entry key="JSP" value="20" />
           <entry key="Properties" value="11" />
           <entry key="XML" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="775" />
-          <entry key="jsp" value="98" />
+          <entry key="java" value="793" />
+          <entry key="jsp" value="172" />
           <entry key="properties" value="7" />
           <entry key="txt" value="14" />
           <entry key="xml" value="981" />
@@ -73,8 +91,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="775" />
-          <entry key="JSP" value="98" />
+          <entry key="JAVA" value="793" />
+          <entry key="JSP" value="172" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Properties" value="7" />
           <entry key="XML" value="981" />
@@ -89,51 +107,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-              <folding>
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Default.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Salary/UserEdit.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/resources/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserInfo.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="70" column="78" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="78" />
+            <state relative-caret-position="120">
+              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -152,6 +130,9 @@
     <findStrings>
       <find>grf</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -180,7 +161,10 @@
         <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserManage.jsp" />
         <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserInfo.jsp" />
+        <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Salary/UserEdit.jsp" />
         <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/manage.jsp" />
         <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Default.jsp" />
       </list>
     </option>
@@ -267,27 +251,19 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
@@ -360,24 +336,13 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-serivce" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,6 +358,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yuxiu.edu.web.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ssm+maven\Eduproject\common-parent\edu-manager\src\main\webapp\WEB-INF\Modules" />
       <recent name="E:\ssm+maven\Eduproject\common-parent\edu-manager\src\main\resources" />
@@ -590,11 +558,12 @@
       <workItem from="1566874314000" duration="595000" />
       <workItem from="1566890477066" duration="2261000" />
       <workItem from="1566963930901" duration="6293000" />
+      <workItem from="1566998351102" duration="1630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46382000" />
+    <option name="totallyTimeSpent" value="48012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -606,17 +575,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.4137214" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.1878393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -817,21 +787,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserEdit.jsp">
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/user/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserUpdate.jsp">
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/user/update.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserManage.jsp">
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/user/manage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="32" column="138" selection-start-line="32" selection-start-column="134" selection-end-line="32" selection-end-column="138" />
@@ -840,42 +810,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/resources/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="780">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserInfo.jsp">
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/user/info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="2100">
           <caret line="70" column="78" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="78" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Salary/UserEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/salary/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="160">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
           <folding>
             <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Default.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Salary/UserEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
