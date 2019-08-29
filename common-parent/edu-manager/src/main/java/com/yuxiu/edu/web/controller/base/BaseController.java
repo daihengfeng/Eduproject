@@ -1,5 +1,6 @@
 package com.yuxiu.edu.web.controller.base;
 
+import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
 /**
@@ -15,7 +16,8 @@ public abstract class BaseController<T> {
     //构造方法来给上面的赋值
     public BaseController(){
         //1.获取泛型的真实类型
-        Type type = this.getClass().getGenericSuperclass();
-        System.out.println(type);
+        ParameterizedType type = (ParameterizedType) this.getClass().getGenericSuperclass();
+        Class<?> modelClass = (Class<?>) type.getActualTypeArguments()[0];
+        System.out.println("===="+modelClass);
     }
 }
