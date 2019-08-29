@@ -29,17 +29,17 @@ public class UserController extends BaseController<User> {
         return  null;
     }
 //    跳转管理页面
-    @RequestMapping("manage")
+    @RequestMapping(MANAGA)
     public String manage(){
           return MANAGA_PAGE;
     }
     //列表页面
-    @RequestMapping("info")
+    @RequestMapping(INFO)
     public String info(){
         return INFO_PAGE;
     }
     //页面里面的新增  编辑页面
-    @RequestMapping("edit")
+    @RequestMapping(EDIT)
     public String edit(){
           return EDIT_PAGE;
     }
