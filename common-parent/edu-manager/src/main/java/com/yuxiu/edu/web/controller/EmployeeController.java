@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("employee")
 public class EmployeeController {
 
+    @Autowired
+    private IUserService userService;
 //    跳转页面
     @RequestMapping("manage")
     public String manage(){
@@ -27,5 +29,11 @@ public class EmployeeController {
     @RequestMapping("edit")
     public String edit(){
           return "employee/edit";
+    }
+//    查出全部的员工
+    @RequestMapping("find")
+    public String find(){
+
+        return null;
     }
 }

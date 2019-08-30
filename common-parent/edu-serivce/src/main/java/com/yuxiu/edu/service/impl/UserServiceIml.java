@@ -1,5 +1,6 @@
 package com.yuxiu.edu.service.impl;
 
+import com.yuxiu.edu.model.Employee;
 import com.yuxiu.edu.model.User;
 import com.yuxiu.edu.service.IUserService;
 import com.yuxiu.edu.service.base.BaseServiceImpl;
@@ -19,8 +20,15 @@ public class UserServiceIml extends BaseServiceImpl<User> implements IUserServic
     }
 
     @Override
+    public User findEcation() {
+
+        return null;
+    }
+
+    @Override
     public User findById(Integer id) {
         return userMapper.selectByPrimaryKey(id);
+
     }
 
     @Override

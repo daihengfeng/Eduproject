@@ -80,15 +80,14 @@
 				style="width: 100%;">
 				<thead>
 					<tr>
-						<td style="width: 80px; text-align: center;"><p>用户名</p></td>
-						<td style="width: 100px"><p>邮箱</p></td>
-						<td style="width: 80px"><p>QQ</p></td>
-						<td style="width: 80px"><p>手机号码</p></td>
-						<td style="width: 100px"><p>支付宝</p></td>
-						<td style="width: 80px"><p>姓名</p></td>
-						<td style="width: 80px"><p>总收入</p></td>
-						<td style="width: 80px"><p>余额</p></td>
-						<td style="width: 100px"><p>注册日期</p></td>
+						<td style="width: 80px; text-align: center;"><p>中文名</p></td>
+						<td style="width: 100px"><p>英文名</p></td>
+						<td style="width: 80px"><p>入职日期</p></td>
+						<td style="width: 80px"><p>工资</p></td>
+						<td style="width: 100px"><p>职位级别</p></td>
+						<td style="width: 80px"><p>所属部门</p></td>
+						<td style="width: 80px"><p>离职标签</p></td>
+						<td style="width: 80px"><p>离职日期</p></td>
 						<td class="total_table_contral" style="width: 210px"><p>操作</p></td>
 					</tr>
 				</thead>
