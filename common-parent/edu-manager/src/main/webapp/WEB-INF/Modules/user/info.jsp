@@ -98,24 +98,7 @@
 					style="width: 100%; background-color: #FFF;">
 
 					<tbody>
-							<tr onclick="Common.switchLine(this,event);">
-								<td style="width: 80px; text-align: center;"><p><span >gyf</span></p></td>
-								<td style="width: 100px; text-align: center;"><p><span >gyf@qq.com</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >qq</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >tel</span></p></td>
-								<td style="width: 100px; text-align: center;"><p><span >payAccount</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >AA</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >amount</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >balance</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >BB</span></p></td>
 
-								<td class="delete" style="width: 210px; text-align: center;">
-									<p><input type="button" onclick="Common.showPage(this);" value="编辑" 
-									data-url="./UserUpdate.html" />
-									<input type="button" onclick="Common.showPage(this);" value="禁用"
-									data-url="#" />
-								</td>
-							</tr>
 							<tr onclick="Common.switchLine(this,event);">
 								<td style="width: 80px; text-align: center;"><p><span >gyf</span></p></td>
 								<td style="width: 100px; text-align: center;"><p><span >gyf@qq.com</span></p></td>

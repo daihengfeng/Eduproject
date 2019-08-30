@@ -20,7 +20,7 @@ public class UserServiceIml extends BaseServiceImpl<User> implements IUserServic
 
     @Override
     public User findById(Integer id) {
-        return userMapper.findById(id);
+        return userMapper.selectByPrimaryKey(id);
     }
 
     @Override
