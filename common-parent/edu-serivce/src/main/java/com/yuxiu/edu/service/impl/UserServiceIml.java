@@ -19,6 +19,7 @@ public class UserServiceIml extends BaseServiceImpl<User> implements IUserServic
         return null;
     }
 
+
     @Override
     public User findEcation() {
 
@@ -46,13 +47,4 @@ public class UserServiceIml extends BaseServiceImpl<User> implements IUserServic
 
     }
 
-    @Override
-    public void update(User user) {
-
-    }
-
-    @Override
-    public void inster(User user) {
-
-    }
 }

@@ -1,9 +1,12 @@
 package com.yuxiu.edu.web.controller;
 
+import com.yuxiu.edu.model.Employee;
 import com.yuxiu.edu.model.User;
+import com.yuxiu.edu.service.ErpService;
 import com.yuxiu.edu.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -14,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class EmployeeController {
 
     @Autowired
-    private IUserService userService;
+    private ErpService erpService;
 //    跳转页面
     @RequestMapping("manage")
     public String manage(){
@@ -31,9 +34,12 @@ public class EmployeeController {
           return "employee/edit";
     }
 //    查出全部的员工
-    @RequestMapping("find")
-    public String find(){
-
+    @RequestMapping("selecteris")
+    public String selecteris(Model model){
+     Employee employee = erpService.findEcation();
+        System.out.println(employee);
+        System.out.println(11111);
+     model.addAttribute("emp",employee);
         return null;
     }
 }

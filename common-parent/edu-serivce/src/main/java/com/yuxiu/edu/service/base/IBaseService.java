@@ -9,6 +9,5 @@ public interface IBaseService<T> {
     public T findByUUId(String uuid);
     public void deleteById(Integer id);
     public void deleteByUUId(String uuid);
-    public void update(T t);
-    public void inster(T t);
+
 }

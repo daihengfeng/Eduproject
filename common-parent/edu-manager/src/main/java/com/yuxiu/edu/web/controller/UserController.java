@@ -43,4 +43,6 @@ public class UserController extends BaseController<User> {
     public String edit(){
           return EDIT_PAGE;
     }
+
+//    查询用户
 }
