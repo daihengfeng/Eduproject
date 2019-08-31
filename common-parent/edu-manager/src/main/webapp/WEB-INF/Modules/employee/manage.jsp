@@ -30,7 +30,7 @@
         </div>
         <!--====这里是弹出层的内容====-->
 		<div id="common_iframe" class="maincontent">
-			<iframe class="common_iframe" id="A001010_iframe" frameborder="0" border="0" src="${pageContext.request.contextPath}/user/info.do"></iframe>
+			<iframe class="common_iframe" id="A001010_iframe" frameborder="0" border="0" src="${pageContext.request.contextPath}/employee/selecteris.do"></iframe>
 		</div>
     </div>
     </form>

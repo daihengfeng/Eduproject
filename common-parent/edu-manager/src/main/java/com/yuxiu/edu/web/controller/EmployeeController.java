@@ -4,6 +4,7 @@ import com.yuxiu.edu.model.Employee;
 import com.yuxiu.edu.model.User;
 import com.yuxiu.edu.service.ErpService;
 import com.yuxiu.edu.service.IUserService;
+import com.yuxiu.edu.web.controller.base.BaseController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,22 +17,22 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("employee")
-public class EmployeeController {
+public class EmployeeController extends BaseController {
 
     @Autowired
     private ErpService erpService;
 //    跳转页面
-    @RequestMapping("manage")
+    @RequestMapping("MANAGA")
     public String manage(){
           return "employee/manage";
     }
     //
-    @RequestMapping("info")
+    @RequestMapping("INFO")
     public String info(){
         return "employee/info";
     }
     //页面里面的新增
-    @RequestMapping("edit")
+    @RequestMapping("EDIT")
     public String edit(){
           return "employee/edit";
     }
@@ -39,9 +40,10 @@ public class EmployeeController {
     @RequestMapping("selecteris")
     public String selecteris(Model model){
         List<Employee> employees = erpService.selectAll();
-        System.out.println(employees);
+        System.out.println(employees.toString());
         System.out.println("========");
      model.addAttribute("emp",employees);
-        return null;
+        return "employee/info";
     }
+
 }

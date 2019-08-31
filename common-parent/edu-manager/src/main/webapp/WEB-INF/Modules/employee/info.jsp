@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<%@ page contentType="text/html;charset=UTF-8" language="java"
+pageEncoding="UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
 <title>用户信息</title>
@@ -76,16 +78,14 @@
 		
 		<!--这里是表格数据-->
 		<div class="total_table rel">
-			<table border="0" cellspacing="0" cellpadding="0"
+			<table border="5" cellspacing="5" cellpadding="5"
 				style="width: 100%;">
 				<thead>
 					<tr>
 						<td style="width: 80px; text-align: center;"><p>中文名</p></td>
 						<td style="width: 100px"><p>英文名</p></td>
-						<td style="width: 80px"><p>入职日期</p></td>
 						<td style="width: 80px"><p>工资</p></td>
-						<td style="width: 100px"><p>职位级别</p></td>
-						<td style="width: 80px"><p>所属部门</p></td>
+						<td style="width: 80px"><p>入职时间</p></td>
 						<td style="width: 80px"><p>离职标签</p></td>
 						<td style="width: 80px"><p>离职日期</p></td>
 						<td class="total_table_contral" style="width: 210px"><p>操作</p></td>
@@ -96,43 +96,21 @@
 				<table cellpadding="0" cellspacing="0"
 					style="width: 100%; background-color: #FFF;">
 
-					<tbody>
-							<tr onclick="Common.switchLine(this,event);">
-								<td style="width: 80px; text-align: center;"><p><span >gyf</span></p></td>
-								<td style="width: 100px; text-align: center;"><p><span >gyf@qq.com</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >qq</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >tel</span></p></td>
-								<td style="width: 100px; text-align: center;"><p><span >payAccount</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >AA</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >amount</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >balance</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >BB</span></p></td>
+					<tbody border="5" cellspacing="5" cellpadding="5">
+					<c:forEach items="${emp}" var="e" varStatus="status">
+						<tr>
+							<td>${e.chineseName}</td>
+							<td>${e.englishName}</td>
+							<td>${e.salary}</td>
+							<td>${e.departmentId}</td>
+							<td>${e.deltag}</td>
+							<td>${e.leaveDate}</td>
 
-								<td class="delete" style="width: 210px; text-align: center;">
-									<p><input type="button" onclick="Common.showPage(this);" value="编辑" 
-									data-url="./UserUpdate.html" />
-									<input type="button" onclick="Common.showPage(this);" value="禁用"
-									data-url="#" />
-								</td>
-							</tr>
-							<tr onclick="Common.switchLine(this,event);">
-								<td style="width: 80px; text-align: center;"><p><span >gyf</span></p></td>
-								<td style="width: 100px; text-align: center;"><p><span >gyf@qq.com</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >qq</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >tel</span></p></td>
-								<td style="width: 100px; text-align: center;"><p><span >payAccount</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >AA</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >amount</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >balance</span></p></td>
-								<td style="width: 80px; text-align: center;"><p><span >BB</span></p></td>
+							<td><a href=""><span class="glyphicon glyphicon-edit">修改</span> </a></td>
+							<td><a href="${pageContext.request.contextPath}/employee/"><span class="glyphicon glyphicon-trash">删除</span> </a></td>
+						</tr>
+					</c:forEach>
 
-								<td class="delete" style="width: 210px; text-align: center;">
-									<p><input type="button" onclick="Common.showPage(this);" value="编辑"
-											  data-url="./UserUpdate.html" />
-										<input type="button" onclick="Common.showPage(this);" value="禁用"
-											   data-url="#" />
-								</td>
-							</tr>
 					</tbody>
 				</table>
 			</div>

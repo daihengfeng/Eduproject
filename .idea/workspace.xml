@@ -9,8 +9,8 @@
     <list default="true" id="8a00e181-adf2-4e69-811b-cb8af1110755" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/ErpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/ErpService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/impl/ErployeeServiceIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/impl/ErployeeServiceIml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/manage.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/common-parent/target/" />
     <ignored path="$PROJECT_DIR$/common-parent/edu-model/target/" />
@@ -28,7 +28,7 @@
     <session id="1931883767">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
@@ -39,20 +39,20 @@
           <entry key="project.open.time.15" value="4" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="3" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="124" />
-          <entry key="jsp" value="29" />
+          <entry key="java" value="132" />
+          <entry key="jsp" value="38" />
           <entry key="properties" value="14" />
           <entry key="xml" value="108" />
           <entry key="xsd" value="1" />
@@ -61,26 +61,26 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="124" />
-          <entry key="JSP" value="29" />
+          <entry key="JAVA" value="132" />
+          <entry key="JSP" value="38" />
           <entry key="Properties" value="14" />
           <entry key="XML" value="109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1747" />
-          <entry key="jsp" value="186" />
+          <entry key="java" value="1798" />
+          <entry key="jsp" value="252" />
           <entry key="properties" value="7" />
-          <entry key="txt" value="92" />
+          <entry key="txt" value="107" />
           <entry key="xml" value="982" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1747" />
-          <entry key="JSP" value="186" />
-          <entry key="PLAIN_TEXT" value="92" />
+          <entry key="JAVA" value="1798" />
+          <entry key="JSP" value="252" />
+          <entry key="PLAIN_TEXT" value="107" />
           <entry key="Properties" value="7" />
           <entry key="XML" value="982" />
         </counts>
@@ -95,10 +95,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/impl/ErployeeServiceIml.java">
+        <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/info.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="35" />
+            <state relative-caret-position="374">
+              <caret line="109" column="81" selection-start-line="109" selection-start-column="81" selection-end-line="109" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -106,17 +106,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+            <state relative-caret-position="571">
+              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+              <folding>
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/ErpService.java">
+        <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/base/BaseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,14 +177,10 @@
         <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserManage.jsp" />
         <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserInfo.jsp" />
         <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Salary/UserEdit.jsp" />
-        <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/manage.jsp" />
         <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/base/BaseController.java" />
         <option value="$PROJECT_DIR$/common-parent/edu-dao/src/main/java/com/yuxiu/edu/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/common-parent/edu-model/src/main/java/com/yuxiu/edu/model/User.java" />
-        <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Default.jsp" />
         <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/user/info.jsp" />
-        <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/info.jsp" />
-        <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/UserController.java" />
         <option value="$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/base/IBaseService.java" />
         <option value="$PROJECT_DIR$/common-parent/edu-dao/src/main/java/com/yuxiu/edu/mapper/EmployeeMapper.java" />
         <option value="$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/impl/CstcustomerExample.java" />
@@ -182,6 +189,10 @@
         <option value="$PROJECT_DIR$/common-parent/edu-dao/src/main/java/com/yuxiu/edu/mapper/EmployeeMapper.xml" />
         <option value="$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/ErpService.java" />
         <option value="$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/impl/ErployeeServiceIml.java" />
+        <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Default.jsp" />
+        <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/manage.jsp" />
+        <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/info.jsp" />
         <option value="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/EmployeeController.java" />
       </list>
     </option>
@@ -274,7 +285,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -400,6 +410,62 @@
             <path>
               <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eduproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
               <item name="edu-serivce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -456,6 +522,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -684,7 +751,8 @@
       <workItem from="1567060240974" duration="4335000" />
       <workItem from="1567089848155" duration="6185000" />
       <workItem from="1567173060173" duration="2958000" />
-      <workItem from="1567221125735" duration="2656000" />
+      <workItem from="1567221125735" duration="2934000" />
+      <workItem from="1567254058265" duration="2774000" />
     </task>
     <task id="LOCAL-00001" summary="部门，员工，订单，的页面">
       <created>1567000186729</created>
@@ -742,11 +810,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567176033807</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="查出Employee人员">
+      <created>1567223908059</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567223908059</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71275000" />
+    <option name="totallyTimeSpent" value="74327000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -759,9 +834,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -769,7 +843,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.31053203" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.31487513" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -790,36 +864,6 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.118336886" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17004265" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.31053203" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32952183" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.32952183" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.558089" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.2529859" />
-      <window_info anchor="bottom" id="Application Servers" order="12" sideWeight="0.49946696" weight="0.21413721" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32952183" />
-      <window_info anchor="bottom" id="Spring" order="14" sideWeight="0.49946696" weight="0.32952183" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.118336886" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -834,7 +878,8 @@
     <MESSAGE value="BaseControoler 编写 1" />
     <MESSAGE value="BaseControoler 编写 和对controller的简单编写" />
     <MESSAGE value="BaseControoler 编写 和数据的增删改查" />
-    <option name="LAST_COMMIT_MESSAGE" value="BaseControoler 编写 和数据的增删改查" />
+    <MESSAGE value="查出Employee人员" />
+    <option name="LAST_COMMIT_MESSAGE" value="查出Employee人员" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/resources/mybatis.xml" />
@@ -902,13 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/edu-model/src/main/java/com/yuxiu/edu/model/SalaryDetailExample.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -946,13 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Default.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="59" column="88" selection-start-line="59" selection-start-column="82" selection-end-line="59" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/user/update.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-762">
@@ -978,20 +1009,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="84" column="53" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="89" column="64" selection-start-line="89" selection-start-column="64" selection-end-line="89" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-model/src/main/java/com/yuxiu/edu/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,13 +1037,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/impl/CstcustomerExample.java" />
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-dao/src/main/java/com/yuxiu/edu/mapper/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/edu-dao/src/main/java/com/yuxiu/edu/mapper/base/BaseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1028,16 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="338" column="7" lean-forward="true" selection-start-line="338" selection-start-column="7" selection-end-line="338" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/base/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1110,17 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-          <folding>
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/ErpService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1128,17 +1127,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-dao/src/main/java/com/yuxiu/edu/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/edu-serivce/src/main/java/com/yuxiu/edu/service/impl/ErployeeServiceIml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="990">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-model/src/main/java/com/yuxiu/edu/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/Default.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="54" column="88" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="32" column="148" selection-start-line="32" selection-start-column="148" selection-end-line="32" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/employee/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="109" column="81" selection-start-line="109" selection-start-column="81" selection-end-line="109" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/base/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/yuxiu/edu/web/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        <state relative-caret-position="571">
+          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding>
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
