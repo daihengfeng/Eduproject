@@ -22,17 +22,17 @@ public class EmployeeController extends BaseController {
     @Autowired
     private ErpService erpService;
 //    跳转页面
-    @RequestMapping("MANAGA")
+    @RequestMapping("manage")
     public String manage(){
           return "employee/manage";
     }
     //
-    @RequestMapping("INFO")
+    @RequestMapping("info")
     public String info(){
         return "employee/info";
     }
     //页面里面的新增
-    @RequestMapping("EDIT")
+    @RequestMapping("edit")
     public String edit(){
           return "employee/edit";
     }
