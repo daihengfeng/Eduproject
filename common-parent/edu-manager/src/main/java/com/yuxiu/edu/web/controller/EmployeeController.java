@@ -9,6 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.List;
+
 /**
  * Created by shRstart on 2019/8/23.
  */
@@ -36,10 +38,10 @@ public class EmployeeController {
 //    查出全部的员工
     @RequestMapping("selecteris")
     public String selecteris(Model model){
-     Employee employee = erpService.findEcation();
-        System.out.println(employee);
-        System.out.println(11111);
-     model.addAttribute("emp",employee);
+        List<Employee> employees = erpService.selectAll();
+        System.out.println(employees);
+        System.out.println("========");
+     model.addAttribute("emp",employees);
         return null;
     }
 }

@@ -26,18 +26,20 @@ public class ErployeeServiceIml extends BaseServiceImpl<Employee> implements Erp
     public Employee login(String username, String password) {
         return null;
     }
-
+//查询全部的employee人员
     @Override
-    public Employee employee() {
-        return null;
+    public List<Employee> selectAll() {
+        EmployeeExample example = new EmployeeExample();
+        List<Employee> employees = employeeMapper.selectByExample(example);
+        return employees;
     }
+
 
 
     @Override
     public Employee findEcation() {
-        EmployeeExample example = new EmployeeExample();
-        List<Employee> employees = employeeMapper.selectByExample(example);
-        return (Employee) employees;
+
+        return null;
     }
 
     @Override
