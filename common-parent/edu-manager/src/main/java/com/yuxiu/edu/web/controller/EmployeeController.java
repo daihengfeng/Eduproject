@@ -17,7 +17,7 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("employee")
-public class EmployeeController extends BaseController {
+public class EmployeeController{
 
     @Autowired
     private ErpService erpService;
